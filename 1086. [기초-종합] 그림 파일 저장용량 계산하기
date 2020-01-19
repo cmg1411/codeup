@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	int w, h, b;
+	double res;
+	
+	scanf("%d %d %d %d", &w, &h, &b);
+	
+	res = (double)w*h*b/8/pow(2, 20);
+	
+	printf("%.2lf MB", res);
+	
+	return 0;
+}

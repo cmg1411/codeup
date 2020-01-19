@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+	long long int a, d, n, i=1;
+	
+	scanf("%lld %lld %lld", &a, &d, &n);
+	
+	while(i!=n){
+		a*=d;
+		i++;
+	}
+	
+	printf("%lld", a);
+	return 0;
+}

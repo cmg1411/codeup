@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+    char c, t='a';
+    
+    scanf("%c", &c);
+    
+    while(c!=t){
+        printf("%c ", t++);
+    }
+    
+    printf("%c ", c);
+}
