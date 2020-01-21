@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+	int num, i, a[10000]={};
+	int min = 23;
+	
+	scanf("%d", &num);
+	
+	for(i=1 ; i<=num ; i++){
+		scanf("%d", &a[i]);
+		if(a[i]<min) min=a[i];
+	}
+	
+  	printf("%d ", min);
+}
